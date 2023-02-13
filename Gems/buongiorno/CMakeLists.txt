@@ -4,5 +4,5 @@
 # which is generated when cmake is run
 # This path is the gem root directory
 if(PAL_TRAIT_BUILD_HOST_TOOLS)
-    ly_create_alias(NAME buongiorno.Builders NAMESPACE Gem)
+    ly_create_alias(NAME BuonGIorno.Builders NAMESPACE Gem)
 endif()
