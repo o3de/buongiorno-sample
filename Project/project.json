@@ -1,5 +1,5 @@
 {
-    "project_name": "BuonGIornoSample",
+    "project_name": "Buongiorno",
     "project_id": "{9579ef7f-9689-49af-ba1c-846bab6db72c}",
     "origin": "https://github.com/powervr-graphics/buongiorno-sample",
     "license": "MIT, https://opensource.org/licenses/MIT",
@@ -9,7 +9,7 @@
         "Project"
     ],
     "user_tags": [
-        "BuonGIorno",
+        "Buongiorno",
         "Sample",
         "Getting Started"
     ],
