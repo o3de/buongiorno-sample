@@ -1,0 +1,21 @@
+{
+    "project_name": "Buongiorno",
+    "project_id": "{9579ef7f-9689-49af-ba1c-846bab6db72c}",
+    "origin": "https://github.com/powervr-graphics/buongiorno-sample",
+    "license": "MIT, https://opensource.org/licenses/MIT",
+    "display_name": "Buon(G.I)orno Sample",
+    "summary": "This project contains the O3DE Buon(G.I)orno sample scene.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "Buongiorno",
+        "Sample",
+        "Getting Started"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de",
+    "external_subdirectories": [
+        "../Gems/buongiorno"
+    ]
+}

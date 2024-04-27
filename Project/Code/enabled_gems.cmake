@@ -1,6 +1,5 @@
 
 set(ENABLED_GEMS
-    Buongiorno
     Atom
     CameraFramework
     ImGui

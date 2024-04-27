@@ -17,5 +17,6 @@
     "engine": "o3de",
     "external_subdirectories": [
         "../Gems/buongiorno"
-    ]
+    ],
+    "engine_version": "2.2.2"
 }
