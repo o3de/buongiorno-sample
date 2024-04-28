@@ -6,6 +6,10 @@
 
 Buon(G.I.)orno is the stylized representation of a small italian village. The main purpose of this graphics demo is to showcase what it's possible to achieve thanks to Ray-Traced Global Illumination in a mobile-friendly game environment.
 
+## Prerequisites
+
+You need to build or [install O3DE engine](https://o3de.org/download/).
+
 ## How to run
 
 1. Download (green "Code" button, then "Download ZIP") or clone the github repository (`git clone https://github.com/o3de/buongiorno-sample.git`)
