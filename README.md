@@ -15,7 +15,7 @@ Buon(G.I.)orno is the stylized representation of a small italian village. The ma
 ![project](doc/project.png?raw=true)
 
 4. Click on the **Build Project** button, located on the **Buon(G.I)orno Sample** image.
-5. Once the project has been built sucessfully, use the **Open Editor** button.
+5. Once the project has been built successfully, use the **Open Editor** button.
 6. The asset pre-processor will run for a bit. Once it is over you will be welcomed with the **Open a Level** window, simply pick the first one.
 
 ## Project Highlights
