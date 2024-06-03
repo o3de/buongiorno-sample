@@ -1,50 +1,39 @@
-# Buon(G.I)orno Sample and Gem for O3DE
+<u>Supported o3de versions</u> : **23.10**
 
-![BuonGIorno_Screenshot](https://user-images.githubusercontent.com/10916957/195835333-f1b4c2a8-e07b-4b2a-bc01-1b418bb969d2.png)
+# Buon(G.I)orno Sample
+
+![gameplay](doc/gameplay.gif?raw=true)
 
 Buon(G.I.)orno is the stylized representation of a small italian village. The main purpose of this graphics demo is to showcase what it's possible to achieve thanks to Ray-Traced Global Illumination in a mobile-friendly game environment.
 
-## Download and Install
+## Prerequisites
 
-### 1. Clone the repository
+You need to build or [install O3DE engine](https://o3de.org/download/).
 
-You can clone the gems to any folder locally, including inside the engine folder. If you clone to a folder inside an existing Git repository (e.g. o3de) you should add the folder to the Git exclude file for the existing repository.
+## How to run
 
-#### Cloning into a folder outside the engine repository folder (Recommended) 
+1. Download (green "Code" button, then "Download ZIP") or clone the github repository (`git clone https://github.com/o3de/buongiorno-sample.git`)
+2. Launch O3DE. It will open the Project manager. Click on the **New Project** button then **Open Existing Project** option.
+3. Navigate to your download (and make sure it is unzipped). Open the **Project** folder. The project should now be registered.
 
-```shell
-# navigate to the desired directory (outside your engine repository folder) and clone the project 
-> git clone https://github.com/o3de/buongiorno-sample.git
-Cloning into 'buongiorno-sample'...
-```
+![project](doc/project.png?raw=true)
 
-#### Cloning into the engine repository folder
+4. Click on the **Build Project** button, located on the **Buon(G.I)orno Sample** image.
+5. Once the project has been built successfully, use the **Open Editor** button.
+6. The asset pre-processor will run for a bit. Once it is over you will be welcomed with the **Open a Level** window, simply pick the first one.
 
-```shell
-# clone the project in your existing engine repository folder
-> git clone https://github.com/o3de/buongiorno-sample.git c:/path/to/o3de/buongiorno-sample
-Cloning into 'buongiorno-sample'...
-```
+## Project Highlights
 
-```shell
-# Add the project folder to the engine git exclude file
-> echo buongiorno-sample > c:/path/to/o3de/.git/info/exclude
-```
+- **Benchmarking**, this scene was made to test performances of O3DE on mobile devices.
+- **Animated environment**, the scene has cars and characters in movement.
 
-### 2. Register the engine, project and gems
+### Screenshots
 
-```shell
-# register the engine (If you already built O3DE in project-centric mode then you don't need this step.)
-> c:/path/to/o3de/scripts/o3de register --this-engine
+![screenshot](doc/screenshot-3.png?raw=true)
 
-# register the project 
-> c:/path/to/o3de/scripts/o3de register -pp c:/path/to/buongiorno-sample/Project
+![screenshot](doc/screenshot-1.png?raw=true)
 
-# register the gem (OPTIONAL) - Only needed if you plan to use the gem from another project. 
-> c:/path/to/o3de/scripts/o3de register -gp c:/path/to/buongiorno-sample/Gems/buongiorno
-```
-
-You are now setup to use these gems in your projects.
+![screenshot](doc/screenshot-2.png?raw=true)
 
 ## License
 
